@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from auth import router as auth_router
-from files import router as files_router
+from docs import router as files_router
 from fastapi.staticfiles import StaticFiles
 import models
 from database import engine, Base
